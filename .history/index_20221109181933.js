@@ -12,6 +12,7 @@ function introductionWithLanguage(name, language) {
 
 // returns statement with two variables, substituting a default if second argument is not provided
 function introductionWithLanguageOptional(name, language = "JavaScript") {
+    // to do
     const namePhrase = `Hi, my name is ${name}`;
     const phrase = `${namePhrase} and I am learning to program in ${language}.`
     return phrase;
